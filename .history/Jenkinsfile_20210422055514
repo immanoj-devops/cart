@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Sonar Scan') {
             steps {
-               sh  "echo Sonar Scan "
+               s echo "Sonar Scan "
             }
         }
     }
